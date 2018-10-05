@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Calorias</string>
+    <string name="def_value">100</string>
+</resources>
