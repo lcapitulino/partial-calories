@@ -24,6 +24,9 @@ public class MainActivity extends AppCompatActivity {
         EditText txtPartialGrams = (EditText) findViewById(R.id.partialGrams);
 
         double totalGrams = textToDouble(txtTotalGrams);
+        if (totalGrams == 0)
+            return;
+
         double totalCalories = textToDouble(txtTotalCalories);
         double partialGrams = textToDouble(txtPartialGrams);
 
